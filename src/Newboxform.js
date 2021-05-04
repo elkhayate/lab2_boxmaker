@@ -28,7 +28,7 @@ export default class Newboxform extends Component {
                 <label htmlFor="width">Width : </label>
                 <input 
                 id = "width"
-                type = "text"
+                type = "number"
                 name = "width"
                 onChange = {this.handleChange}
                 value = {this.state.width}
@@ -36,7 +36,7 @@ export default class Newboxform extends Component {
                 <label htmlFor="height">Height : </label>
                 <input 
                 id = "height"
-                type = "text"
+                type = "number"
                 name = "height"
                 onChange = {this.handleChange}
                 value = {this.state.height}
