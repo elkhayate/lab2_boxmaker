@@ -31,6 +31,7 @@ export default class Boxlist extends Component {
                 additem = {this.addItem}
                 />
                 {myList}
+                <p>Made by Driss Alaoui and Mohamedel khayate</p>
             </div>
         )
     }
